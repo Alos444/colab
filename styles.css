@@ -9,14 +9,17 @@ header {
     margin: 40px 0;
 }
 
-.card-img-top {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
+.card {
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s;
+    margin: 0 auto;
 }
 
-.card {
-    transition: transform 0.3s;
+.card-img-top {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card:hover {
